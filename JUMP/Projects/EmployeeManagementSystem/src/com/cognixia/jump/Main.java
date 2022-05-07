@@ -315,7 +315,7 @@ public class Main {
 					sal = sc.nextInt(); 
 					sc.nextLine();
 				}
-				if (sc.hasNextLine()) {
+				else {
 					if (sc.nextLine().equalsIgnoreCase("EXIT")) {
 						System.out.println("\nExiting to Main Menu...");
 						return;
